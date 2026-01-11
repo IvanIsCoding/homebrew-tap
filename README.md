@@ -1,28 +1,5 @@
-# celq's Homebrew Tap
+# Homebrew Tap
 
-This is a [Homebrew](https://brew.sh) tap for [celq](https://github.com/IvanIsCoding/celq)
+This is my personal [Homebrew](https://brew.sh) tap for tinkering with [celq](https://github.com/IvanIsCoding/celq).
 
-## Installation
-
-```bash
-brew install IvanIsCoding/tap/celq
-```
-
-## About
-
-celq is a Common Expression Language (CEL) CLI Tool. Think of it as `jq` with CEL syntax.
-
-```bash
-brew install IvanIsCoding/tap/celq
-```
-
-**Usage:**
-```bash
-echo '["apples", "bananas", "blueberry"]' | celq 'this.filter(s, s.contains("a"))'
-# Outputs: ["apples","bananas"]
-```
-
-**Links:**
-- [GitHub Repository](https://github.com/IvanIsCoding/celq)
-- [Documentation](https://docs.rs/celq/latest/celq/)
-- [Crates.io](https://crates.io/crates/celq)
+Please use [get-celq/homebrew-tap](https://github.com/get-celq/homebrew-tap) instead
